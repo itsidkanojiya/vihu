@@ -12,10 +12,10 @@ const eventCards = [
     title: "માતાજીની પલ્લી",
     value: "તા.૨૬/૦૩/૨૦૨૬ ગુરુવાર\nસાંજે ૬:૦૦ કલાકે",
   },
-  { title: "લઘુ-રુદ્ર યજ્ઞ", value: "તા.૩૦/૦૩/૨૦૨૬ ગુરુવાર\nસવારે ૮:૦૦ કલાકે" },
+  { title: "લઘુ-રુદ્ર યજ્ઞ", value: "તા.૩૦/૦૩/૨૦૨૬ સોમવાર\nસવારે ૮:૦૦ કલાકે" },
   {
     title: "શ્ર્રી ફળ હોમ, લઘુરુદ્ર યજ્ઞ આરતી",
-    value: "તા.૩૦/૦૩/૨૦૨૬ ગુરુવાર\nસાંજે ૫:૦૦ કલાકે",
+    value: "તા.૩૦/૦૩/૨૦૨૬ સોમવાર\nસાંજે ૫:૦૦ કલાકે",
   },
   {
     title: "જવારા વળાવવાના",
@@ -35,6 +35,7 @@ const frameUrl = (frame) =>
   `/frames/frame_${String(frame - 1).padStart(2, "0")}_delay-0.111s.webp`;
 
 gsap.registerPlugin(ScrollTrigger);
+ion;
 
 function App() {
   const heroRef = useRef(null);
@@ -265,7 +266,7 @@ function App() {
         <div className="reveal rounded-3xl border border-gold bg-maroon p-8 text-center text-cream shadow-xl">
           <h3 className="font-gujarati text-3xl md:text-4xl">શુભ સ્થળ</h3>
           <p className="mt-4 font-gujarati text-2xl md:text-3xl">
-            શ્રી વેરાઈ માતાજી પાનું મંદિર, વાસણા-કોટરિયા
+            શ્રી વેરાઈ માતાજી વાળું ફળિયું, વાસણા-કોતરીયા જી. વડોદરા
           </p>
           <div className="mt-6 overflow-hidden rounded-2xl border border-gold/60 bg-cream/90 p-2">
             <iframe
