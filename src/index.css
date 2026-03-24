@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-gujarati: "Noto Serif Gujarati", "Nirmala UI", "Shruti", serif;
+  --color-gold: #d4af37;
+  --color-maroon: #800000;
+  --color-cream: #f7efe1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Noto Serif Gujarati", "Nirmala UI", "Shruti", serif;
+  background: #f7efe1;
+  color: #2f2323;
+}
+
+.gold-pattern {
+  background-image: radial-gradient(circle at 20% 20%, #d4af3740 0, transparent 30%),
+    radial-gradient(circle at 80% 30%, #8000001f 0, transparent 28%),
+    radial-gradient(circle at 40% 85%, #d4af3726 0, transparent 36%);
+}
+
+.reveal {
+  will-change: transform, opacity;
+}
