@@ -19,7 +19,7 @@ const eventCards = [
   },
   {
     title: "જવારા વળાવવાના",
-    value: "તા.૩૧/૦૩/૨૦૨૬ ગુરુવાર\nસવારે ૯:૦૦ કલાકે",
+    value: "તા.૩૧/૦૩/૨૦૨૬ મંગળવાર\nસવારે ૯:૦૦ કલાકે",
   },
   {
     title: "ચૌલક્રિયા (બાબરી)",
@@ -189,9 +189,9 @@ function App() {
       >
         <div className="absolute inset-0 gold-pattern opacity-30" />
         <div className="reveal relative z-10 mb-6 w-full px-4 text-center font-gujarati text-maroon">
-          <p className="text-xl md:text-2xl">|| શ્રી યામુંડા માં ||</p>
+          <p className="text-xl md:text-2xl">|| શ્રી ચામુંડા માં ||</p>
           <p className="mt-1 text-xl md:text-2xl">|| શ્રી ગણેશાય નમઃ ||</p>
-          <p className="mt-1 text-xl md:text-2xl">|| જય શ્રી મહોદેવી માં ||</p>
+          <p className="mt-1 text-xl md:text-2xl">|| જય શ્રી મહાદેવ ||</p>
         </div>
 
         {/* Mobile: full viewport width canvas; md+: max width + rounded corners */}
