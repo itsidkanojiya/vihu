@@ -35,7 +35,6 @@ const frameUrl = (frame) =>
   `/frames/frame_${String(frame - 1).padStart(2, "0")}_delay-0.111s.webp`;
 
 gsap.registerPlugin(ScrollTrigger);
-ion;
 
 function App() {
   const heroRef = useRef(null);
